@@ -89,7 +89,7 @@ $httpClient.get(url, function(error, response, data){
 //获取国旗Emoji函数
 function getCountryFlagEmoji(countryCode) {
     if (countryCode.toUpperCase() == 'TW') {
-      countryCode = 'CN'
+      countryCode = 'TW'
     }
     const codePoints = countryCode
       .toUpperCase()
